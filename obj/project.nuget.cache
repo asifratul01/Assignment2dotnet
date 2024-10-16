@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zv9yMva+IoA=",
+  "success": true,
+  "projectFilePath": "F:\\Desktop\\StudentCourseManager\\StudentCourseManager\\StudentCourseManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ratul\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
+    "C:\\Users\\Ratul\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
