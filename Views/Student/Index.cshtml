@@ -1,0 +1,32 @@
+@model IEnumerable<YourNamespace.Models.Student>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+</head>
+<body>
+    <h1>Student List</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Course Name</th>
+                <th>Teacher Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Name</td>
+                    <td>@student.Course.CourseName</td>
+                    <td>@student.Course.Teacher.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
